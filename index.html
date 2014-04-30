@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <title>Rivets Test</title>
 <link rel="stylesheet" href="style.css">
-<main></main>
+<main>
+	<h1>Items</h1>
+	<ul>
+		<li rv-each-item="items" rv-id="item_{index}">
+			{index}: {item}
+		</li>
+	</ul>
+	<button rv-on-click="add">Add</button>
+</main>
 <script src="bower_components/rivets/dist/rivets.min.js"></script>
 <script src="bower_components/watch/src/watch.min.js"></script>
 <script src="bower_components/HTML/dist/HTML.base.min.js"></script>
