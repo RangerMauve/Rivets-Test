@@ -1,2 +1,11 @@
 // compress: true, sourceMap: true
 @import "bower_components/3l/3L/3L.less";
+
+main {
+	opacity: 0;
+	.transition(opacity 1s);
+}
+
+main.loaded {
+	opacity: 1;
+}

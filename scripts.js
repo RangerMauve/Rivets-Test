@@ -11,4 +11,7 @@ var model = {
 	}
 }
 
-rivets.bind(HTML.query("main"),model);
+var main = HTML.body.main;
+rivets.bind(main,model);
+
+main.classList.add("loaded");
