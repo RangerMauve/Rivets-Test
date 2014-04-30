@@ -18,6 +18,8 @@
   "dependencies": {
     "3l": "~1.4.4",
     "rivets": "~0.6.7",
-    "watch": "*"
+    "watch": "*",
+    "sugar": "~1.4.1",
+    "HTML": "~0.11.1"
   }
 }
