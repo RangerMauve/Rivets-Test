@@ -2,12 +2,12 @@ var name;
 while(!name)name=prompt("What is your name?");
 
 rivets.formatters.prepend = function(value,to_add){
-	if(Array.isArray(value))return [to_add].concat(value);
+	if(value instanceof Array)return [to_add].concat(value);
 	else return to_add + value;
 }
 
 rivets.formatters.append = function(value, to_add){
-	if(Array.isArray(value))return value.concat(to_add);
+	if(value instanceof Array)return value.concat(to_add);
 	else return value + to_add;
 }
 
