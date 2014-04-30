@@ -3,6 +3,7 @@
 <link rel="stylesheet" href="style.css">
 <main>
 	<h1>Items</h1>
+	<div rv-show="name">Hello, {name}</div>
 	<ul>
 		<li rv-each-item="items" rv-id="item_{index}_container">
 			{index}: {item}
