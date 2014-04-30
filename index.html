@@ -5,7 +5,7 @@
 	<h1>Items</h1>
 	<div rv-show="name">Hello, {name}</div>
 	<ul>
-		<li rv-each-item="items" rv-id="item_{index}_container">
+		<li rv-each-item="items" rv-id="index | prepend item_ | append _container">
 			{index}: {item}
 		</li>
 	</ul>
