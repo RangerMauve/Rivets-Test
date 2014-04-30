@@ -1,0 +1,23 @@
+{
+  "name": "Rivets-Test",
+  "version": "0.0.0",
+  "authors": [
+    "RangerMauve <RangerMauve@hotmail.com>"
+  ],
+  "description": "Testing out various rivets features",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "3l": "~1.4.4",
+    "rivets": "~0.6.7",
+    "watch": "*"
+  }
+}
